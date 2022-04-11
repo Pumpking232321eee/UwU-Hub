@@ -1,0 +1,8 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("UWU", "Sentinel")
+
+local Tab = Window:NewTab("Blox Fruits Hub's")
+local Section = Tab:NewSection("UwU Hubs")
+Section:NewButton("ButtonText", "ButtonInfo", function(loadstring(game:HttpGet("https://https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free"))())
+    print("Clicked")
+end)
