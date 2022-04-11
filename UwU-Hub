@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("UWU", "Sentinel")
+local Window = Library.CreateLib("UwU-Hub", "Synapse")
 
-local Tab = Window:NewTab("Blox Fruits Hub's")
-local Section = Tab:NewSection("UwU Hubs")
-Section:NewButton("ButtonText", "ButtonInfo", function(loadstring(game:HttpGet("https://https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free"))())
+local Tab = Window:NewTab("UwU-Hub Script")
+local Section = Tab:NewSection("Blox Fruit Script's")
+Section:NewButton("Smz-Hub", "OP Blox Fruit Script's", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Frerfgzz/scriptRoblox/main/smzhub"))()
     print("Clicked")
 end)
