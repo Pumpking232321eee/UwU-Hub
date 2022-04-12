@@ -1,8 +1,11 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("UwU-Hub | Made By ComplexSlayers,BedlessCrasher", "Synapse")
+local Window = Library.CreateLib("UwU-Hub | Made By ComplexSlayers,BedlessCrasher", "Serpent")
 
 local Tab = Window:NewTab("UwU-Hub Script")
 local Section = Tab:NewSection("Blox Fruit Script's")
+Section:NewButton("MAKURO-Hub", "OP Blox Fruit Scripts", function()loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+    print("Clicked")
+end)
 Section:NewButton("Smz-Hub", "OP Blox Fruit Scripts", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Frerfgzz/scriptRoblox/main/smzhub"))()
     print("Clicked")
 end)
